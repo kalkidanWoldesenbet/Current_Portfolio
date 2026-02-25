@@ -1,0 +1,23 @@
+:root {
+    /* Colors - Premium Midnight */
+    --bg-primary: #0f172a;
+    /* Deep Navy */
+    --bg-secondary: #1e293b;
+    /* Mid Navy */
+    --accent-primary: #38bdf8;
+    /* Luminous Cyan */
+    --accent-secondary: #818cf8;
+    /* Soft Indigo */
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --glass-bg: rgba(30, 41, 59, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
+
+    /* Typography */
+    --font-main: 'Outfit', 'Inter', system-ui, sans-serif;
+
+    /* Spacing & Borders */
+    --radius-lg: 24px;
+    --radius-md: 16px;
+    --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
