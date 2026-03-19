@@ -231,6 +231,12 @@ h2::after {
     transition: var(--transition);
 }
 
+.contact-links i {
+    margin-right: 10px;
+    color: var(--accent-primary);
+    width: 20px;
+}
+
 /* Certifications Styling */
 .cert-grid {
     display: grid;
