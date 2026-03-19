@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkidan Abebe Woldesenbet - CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f172a;
+            --accent: #38bdf8;
+            --text: #334155;
+            --header-text: #1e293b;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 40px;
+            background: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+
+        @media print {
+            body {
+                margin: 0;
+                padding: 20px;
+                box-shadow: none;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+
+        header {
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin: 0;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-top: 5px;
+        }
+
+        .contact-info {
+            font-size: 0.9rem;
+            color: var(--text);
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .contact-info a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: 1px solid #cbd5e1;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--header-text);
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .project-meta {
+            font-style: italic;
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .alert {
+            background: #f8fafc;
+            border-left: 4px solid var(--accent);
+            padding: 15px;
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+        }
+
+        .btn-print {
+            background: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 20px;
+            cursor: pointer;
+            border: none;
+            font-family: inherit;
+            font-weight: 600;
+        }
+
+        .btn-print:hover {
+            background: var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <div class="no-print alert">
+        <strong>💡 PDF Export Tip:</strong> Click the button below, then in the print window, set "Destination" to <strong>"Save as PDF"</strong>.
+        <br>
+        <button onclick="window.print()" class="btn-print">Save as PDF</button>
+    </div>
+
+    <header>
+        <h1>Kalkidan Abebe Woldesenbet</h1>
+        <div class="subtitle">Junior Software Engineer</div>
+        <div class="contact-info">
+            <span>Addis Ababa, Ethiopia</span>
+            <span>0930400909</span>
+            <a href="mailto:kalkidanwoldesenbet0121@gmail.com">kalkidanwoldesenbet0121@gmail.com</a>
+            <a href="https://kalkidanwoldesenbet.github.io/Current_Portfolio/" target="_blank">Portfolio</a>
+            <a href="https://www.linkedin.com/in/kalkidan-abebe-woldesenbet-641166281/" target="_blank">LinkedIn</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p>Detail-oriented Junior Software Engineer with a Bachelor’s Degree in Computer Science from HiLCoE. Hands-on experience building scalable web applications using Node.js, PHP, and PostgreSQL. Passionate about leveraging cutting-edge technologies to solve complex problems and contribute to Ethiopia’s growing ICT infrastructure.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <h3>BSc in Computer Science</h3>
+        <p>HiLCoE School of Computer Science and Technology (2020 – July 2025)</p>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div><strong>Frontend:</strong> React.js (Basic), HTML5, CSS3, JavaScript (ES6+), EJS.</div>
+            <div><strong>Backend:</strong> Node.js, Express.js, PHP.</div>
+            <div><strong>Databases:</strong> PostgreSQL, MySQL.</div>
+            <div><strong>Tools:</strong> Git, RESTful API, CRUD Systems, SDLC.</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Key Projects</h2>
+        
+        <div>
+            <h3>Book Review Capstone Project</h3>
+            <div class="project-meta">Full-stack Web Application (Node.js, Express, PostgreSQL)</div>
+            <ul>
+                <li>Developed a CRUD application to track and rate books with dynamic content rendering.</li>
+                <li>Integrated Open Library API to fetch book covers and pre-fill details.</li>
+                <li>Implemented advanced sorting algorithms to enhance user experience.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>BranaConnect Web</h3>
+            <div class="project-meta">Full-stack Web Development</div>
+            <ul>
+                <li>Contributed to a modern web application focusing on scalable architecture.</li>
+                <li>Applied clean code principles and responsive UI/UX design.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Payroll & Student Management Systems</h3>
+            <div class="project-meta">Database prototypes (PHP and MySQL)</div>
+            <ul>
+                <li>Designed normalized schemas and implemented secure record management.</li>
+                <li>Built functional prototypes for employee and student tracking.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Certifications</h2>
+        <ul>
+            <li>The Complete Full-Stack Web Development Bootcamp – Udemy</li>
+            <li>Programming Fundamentals – Udacity</li>
+            <li>Front-End Development – Meta (Coursera)</li>
+            <li>Foundations of Cybersecurity – Google (Coursera)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Soft Skills</h2>
+        <p>Problem-Solving, Team Player, Continuous Learner, Technical Documentation.</p>
+    </section>
+</body>
+</html>
